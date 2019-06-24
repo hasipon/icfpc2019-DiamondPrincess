@@ -1,6 +1,14 @@
 # icfpc2019-DiamondPrincess
 Team name: DiamondPrincess
 
+Team members:
+- Kazuma Okada
+- Kyugo Katsuta
+- Shohei Sawa
+- Takuya Hashimoto
+- Tetsuya Shiota
+- Yuya Watanabe
+
 Programming languages: Rust,C++,Bash,Ruby,JavaScript
 
 ## Used AI list
