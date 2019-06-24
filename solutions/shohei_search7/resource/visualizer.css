@@ -1,0 +1,180 @@
+/* ------------------
+   icon
+ ------------------*/
+@font-face {
+  font-family: 'monochromat';
+  src:  url('fonts/monochromat.eot?u655mz');
+  src:  url('fonts/monochromat.eot?u655mz#iefix') format('embedded-opentype'),
+    url('fonts/monochromat.ttf?u655mz') format('truetype'),
+    url('fonts/monochromat.woff?u655mz') format('woff'),
+    url('fonts/monochromat.svg?u655mz#monochromat') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'monochromat' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-sb_arrow_d_left:before {
+  content: "\e90a";
+}
+.icon-sb_arrow_d_right:before {
+  content: "\e90b";
+}
+.icon-sb_arrow_s_left:before {
+  content: "\e900";
+}
+.icon-sb_arrow_s_right:before {
+  content: "\e901";
+}
+.icon-sb_config:before {
+  content: "\e902";
+}
+.icon-sb_playback_fastforward:before {
+  content: "\e903";
+}
+.icon-sb_playback_fastforward_next:before {
+  content: "\e904";
+}
+.icon-sb_playback_play:before {
+  content: "\e905";
+}
+.icon-sb_playback_repeat:before {
+  content: "\e906";
+}
+.icon-sb_playback_rewind:before {
+  content: "\e907";
+}
+.icon-sb_playback_rewind_previous:before {
+  content: "\e908";
+}
+.icon-sb_playback_suspend:before {
+  content: "\e909";
+}
+
+
+/* ------------------
+   visualizer
+ ------------------*/
+.visual-log {
+	padding: 0px;
+	margin: 0px;
+}
+div.visual-log .content {
+	padding: 0px;
+	margin: 0px;
+	display: inline-block;
+	border: solid 1px #F0F0F0;
+	padding-bottom:5px;
+}
+div.visual-log .row {
+	white-space: nowrap;
+	padding: 0px;
+	margin: 0px;
+	padding-right: 5px;
+	display: flex;
+}
+div.visual-log .visual {
+	border: solid 1px #FAFAFA;
+	margin-top : 5px;
+	margin-left: 5px;
+	padding: 5px;
+	display: inline-block;
+	overflow-x: visible;
+	
+	-webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+	vertical-align: middle;
+	
+	width: 300px;
+	height: 200px;
+}
+div.visual-log .visual>canvas {
+	display: inline-block;
+	vertical-align: middle;
+}
+.visual-log .trace {
+	border: solid 1px #F5F5F5;
+	background-color: #FAFAFA;
+	color: #777777;
+	margin-top : 5px;
+	margin-left: 5px;
+	padding: 5px;
+	width: 280px;
+	height: 200px;
+	
+	display: inline-block;
+	white-space: pre;
+	
+	overflow-x: auto;
+	overflow-y: auto;
+	
+	vertical-align: middle;
+}
+
+div.visual-log button {
+	white-space: nowrap;
+	color: #77777;
+	padding: 0px;
+	margin-top : 5px;
+	margin-left: 5px;
+	display: inner-block;
+	vertical-align: middle;
+}
+
+div.visual-log button.big {
+	font-size: 25px;
+	width: 53px;
+	height: 42px;
+}
+div.visual-log button.small {
+	font-size: 18px;
+	width: 34px;
+	height: 42px;
+}
+
+div.visual-log button>span {
+	color: #444444;
+}
+div.visual-log button[disabled]>span {
+	color: #BBBBBB;
+}
+div.visual-log .frame-range {
+	white-space: nowrap;
+	padding: 5px;
+	margin-top : 5px;
+	margin-left: 5px;
+	display: inner-block;
+	vertical-align: middle;
+	flex-grow: 1;
+	width: 250px;
+	height: 32px;
+}
+
+div.visual-log .frame-text {
+	font-size: 12px;
+	white-space: nowrap;
+	color: #77777;
+	padding: 5px;
+	margin-top : 5px;
+	margin-left: 5px;
+	display: inner-block;
+	vertical-align: middle;
+	height: 42px;
+	line-height: 32px;
+}

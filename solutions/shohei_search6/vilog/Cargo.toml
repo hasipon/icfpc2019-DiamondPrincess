@@ -1,0 +1,10 @@
+[package]
+name = "visual_log"
+version = "0.1.0"
+authors = ["shohei909 <909mmsphere@gmail.com>"]
+
+[lib]
+name="visual_log"
+
+[dev-dependencies]
+rand = "0.5"
