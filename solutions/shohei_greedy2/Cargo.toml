@@ -1,0 +1,7 @@
+[package]
+name = "icfpc"
+version = "0.1.0"
+authors = ["shohei909 <909mmsphere@gmail.com>"]
+
+[dependencies]
+visual_log = { version = "0.1.0", path = "../../VisualLog/impl/rust" }
